@@ -8,12 +8,13 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Goal
 
-- Build editor chrome shell components for the editor experience
+- Add the editor canvas layout and workspace interaction flow
 
 ## Completed
 
 - Design System: Installed and configured shadcn/ui, added Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea components, installed lucide-react, created lib/utils.ts with cn() helper, ensured dark theme only in globals.css
 - Editor Chrome: added fixed top navbar and project sidebar with tabbed placeholders
+- Authentication: implemented Clerk provider, custom auth pages with two-panel layout, route protection via middleware, redirects, and UserButton in navbar
 
 ## In Progress
 

@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { UserButton } from "@clerk/nextjs";
 import { PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import type { HTMLAttributes } from "react";
 
@@ -43,7 +44,15 @@ export function EditorNavbar({
           </p>
         </div>
 
-        <div className="flex h-16 items-center justify-end" />
+        <div className="flex h-16 items-center justify-end">
+          <UserButton
+            appearance={{
+              elements: {
+                avatarBox: "h-8 w-8",
+              },
+            }}
+          />
+        </div>
       </div>
     </header>
   );

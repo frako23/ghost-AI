@@ -8,19 +8,22 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Goal
 
-- Add design system and UI primitive components using shadcn/ui
+- Build editor chrome shell components for the editor experience
 
 ## Completed
 
 - Design System: Installed and configured shadcn/ui, added Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea components, installed lucide-react, created lib/utils.ts with cn() helper, ensured dark theme only in globals.css
+- Editor Chrome: added fixed top navbar and project sidebar with tabbed placeholders
 
 ## In Progress
 
-- None yet.
+- Editor Navbar: finalized top chrome with sidebar toggle and shell layout
+- Project Sidebar: implemented floating project drawer with tabs and placeholder states
+- Dialog Pattern: prepared dialog UI pattern with title, description, and footer action support
 
 ## Next Up
 
-- Add the next planned feature unit here.
+- Add the editor canvas layout and workspace interaction flow
 
 ## Open Questions
 
